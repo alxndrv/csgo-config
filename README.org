@@ -1,1 +1,7 @@
 #+TITLE: CS:GO configuration
+
+/autoexec.cfg/ goes to `...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg`
+*** Launch options
+    #+BEGIN_SRC
+    -novid -freq 144 -refresh 144 -tickrate 128 -nojoy -d3d9ex +exec autoexec
+    #+END_SRC
